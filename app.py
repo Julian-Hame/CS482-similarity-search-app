@@ -1,7 +1,7 @@
 # Retrieve data from pickle file
 import pickle
 # feature_dict = pickle.load(open('feature_dict.pickle', 'rb'))
-filenames = pickle.load(open'filenames.pickle', 'wb')
+filenames = pickle.load(open('filenames.pickle', 'wb')
 
 # Turn image locations into actual person and image names
 person_names = []
