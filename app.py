@@ -2,6 +2,8 @@ import streamlit as st
 from transformers import pipeline
 from PIL import Image
 
+#Test comment
+
 st.title('Similar Image Finder')
 
 st.write("---")
