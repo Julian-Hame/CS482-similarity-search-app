@@ -1,3 +1,10 @@
+# Load dataset
+!wget http://vis-www.cs.umass.edu/lfw/lfw.tgz
+!tar -xvf /content/lfw.tgz
+
+
+
+'''
 import streamlit as st
 from transformers import pipeline
 from PIL import Image
@@ -22,3 +29,4 @@ with col2:
     file_name = st.file_uploader("Upload your own image")
 
 st.write("---")
+'''
