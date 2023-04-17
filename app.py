@@ -23,8 +23,8 @@ col1, col2 = st.columns(2)
 selection = "N/A"
 
 with col1:
-    query_image = st.number_input('Enter the ID number of the dataset image you would like to use.', value = 1, max_value = 232
-                                 min_value = 0, value = 0)
+    query_image = st.number_input('Enter the ID number of the dataset image you would like to use.', value = 0, max_value = 232,
+                                 min_value = 0)
     st.write('You selected:', image_names[query_image])
     st.write("Person: " +person_names[query_image])
 
