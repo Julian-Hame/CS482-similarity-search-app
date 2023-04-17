@@ -10,4 +10,6 @@ pinned: false
 ---
 
 # CS482-similarity-search-app
-Streamlit python app for image similarity
+Streamlit python app for similarity between face images
+
+https://huggingface.co/spaces/JulianHame/similarity-search-app
